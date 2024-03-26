@@ -1,0 +1,10 @@
+.box{
+    border: 1px solid red;
+    min-height: 50px;
+    padding: 20px;
+}
+
+img{
+    width: 166px;
+    height: 40px;
+}

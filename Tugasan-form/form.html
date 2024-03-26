@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+    <body>
+        <header>
+            <a href="">
+               <img 
+               style="width: 166px; height: 40px; gap: 30px;"
+               src="assets/logo.svg"/>
+            </a>
+        </header>
+
+    <div class="container">
+        <div class="text-heading">
+            <h3 style="color: aliceblue;">REGISTER YOUR BOOK </h1>
+                <h5 style="color: aliceblue;">BOOK DETAILS </h5>
+        </div>
+       
+        <form method="get" action="http://httpbin.org/get">
+            <div class="input-container">
+                <label for="Title">Title</label>
+                <input id="Title" name="Title">
+               </div>
+            <div class="input-container-1">
+                <label for="genre" style="color: aliceblue;">Genre</label>
+                <input id="genre" name="genre" type="text" minlength="0">
+            </div>
+             <div class="input-container-2">
+                <label for="author" style="color: aliceblue;">Author</label>
+                <input id="author" name="author" type="text">
+            </div>
+            <div class="input-container-3">
+                <label for="publisher" style="color: aliceblue;">Publisher</label>
+                <input id="publisher" name="publisher" type="text">
+            </div>
+            <div class="input-container-4">
+                <label for="Year Publish" style="color: aliceblue;">Year Publish</label>
+                <input id="YearPublish" name="Year Publish" type="text">
+            </div>
+            <div class="input-container-5">
+                <label for="Availability" style="color: aliceblue;">Availability:</label>
+                <input id="online" name="online" type="radio">
+                <label for="online" style="color: aliceblue;">Online</label>
+                
+                <input id="instore" name="instore" type="radio">
+                <label for="instore" style="color: aliceblue;">In Store</label>
+                
+                <input id="online&instore" name="online&instore" type="radio">
+                <label for="online&instore" style="color: aliceblue;">Online & In Store</label>
+                
+            </div>
+            <div class="input-container-6">
+                <label for="pages" style="color: aliceblue;">Pages</label>
+                <input id="pages" name="pages" type="text">
+            </div>
+            <div class="input-container-7">
+                <label for="language" style="color: aliceblue;">Language</label>
+                <input id="language" name="language" type="text">
+            </div>
+
+            <h5 style="color: aliceblue;">Registree Details </h5>
+            <div class="input-container-8">
+                <label for="name" style="color: aliceblue;">Name</label>
+                <input id="name" name="name" type="text">
+            </div>
+            <div class="input-container-9">
+                <label for="email" style="color: aliceblue;">Email</label>
+                <input id="email" name="email" type="email">
+            </div>
+            <div class="checkbox-container">
+                <input id="checkbox" name="checkbox" type="checkbox">
+                <label for="checkbox" style="color: aliceblue;">I hereby agree to follow all rules and confirmed that all details are accurate</label>
+            </div>
+
+            <button id="button" type="submit"> SAVE YOUR BOOK</button>
+        </form>
+
+    </div>
+
+
+    </body>
+</html>
